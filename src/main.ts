@@ -26,8 +26,8 @@ const config = [{
 const key = config.find(v => v.id === 0).key
 let src = `./src/learn-webgl/${key}.ts`
 window.location.hash ='/'+ key
-// src = './src/demos/firework/index.ts'
-src = './src/demos/musicDance/index.ts'
+src = './src/demos/firework/index.ts'
+// src = './src/demos/musicDance/index.ts'
 
 script.src = src
 script.type = 'module'

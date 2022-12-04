@@ -207,8 +207,8 @@ export class ObjectGPU extends Object3D {
                     @location(0) fragUV: vec2<f32>,
                     @location(1) fragPosition: vec4<f32>
                 ) -> @location(0) vec4<f32> {
-                    // return fragPosition;
-                    return vec4<f32>(1,1,1,1);
+                    return fragPosition;
+                    // return vec4<f32>(1,1,1,1);
                 }
             `
         }
